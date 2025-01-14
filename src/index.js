@@ -10,7 +10,7 @@ const port = process.env.PORT || '4000';
 const hostname =  process.env.HOSTNAME || 'localhost' ;
 
 app.get('',(req,resp)=>{
-    resp.send('This is the Home Page...!');
+    resp.send('This is the Home Page..!');
 })
 
 app.get('/courses',(req,resp)=>{
